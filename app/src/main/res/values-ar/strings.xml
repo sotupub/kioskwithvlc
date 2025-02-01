@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ONE RESORT PREMIUM</string>
+    <string name="enter_access_code">أدخل رمز الوصول</string>
+    <string name="invalid_access_code">رمز الوصول غير صالح</string>
+    <string name="change_server_url">تغيير عنوان الخادم</string>
+    <string name="all_channels">جميع القنوات</string>
+    <string name="entertainment">ترفيه</string>
+    <string name="kids">أطفال</string>
+    <string name="news">أخبار</string>
+    <string name="movies">أفلام</string>
+    <string name="sports">رياضة</string>
+    <string name="channel">قناة: </string>
+    <string name="epg_no">الآن: </string>
+    <string name="loading">جارٍ التحميل...</string>
+    <string name="select_subtitle">حدد الترجمة</string>
+    <string name="select_audio_track">حدد مسار الصوت</string>
+    <string name="no_subtitles_available" >لا توجد ترجمات متاحة</string>
+    <string name="no_audio_tracks_available">لا توجد مسارات صوتية متاحة</string>
+    <string name="audio">الصوت</string>
+    <string name="subtitles">الترجمات</string>
+</resources>

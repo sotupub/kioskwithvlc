@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutChannelItem"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:orientation="horizontal"
+    android:clickable="false"
+
+    android:padding="8dp">
+
+    <!-- First Channel -->
+    <LinearLayout
+        android:id="@+id/linearLayoutChannel1"
+        android:layout_width="85dp"
+        android:layout_height="160dp"
+        android:layout_weight="0"
+        android:layout_marginEnd="5dp"
+        android:orientation="vertical"
+        android:background="@color/transparent"
+        >
+
+        <ImageView
+            android:id="@+id/imageViewLogoList1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:src="@drawable/intro" />
+
+        <TextView
+            android:id="@+id/textViewChannelNameList1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Channel Name 1"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+
+    <!-- Second Channel -->
+    <LinearLayout
+        android:id="@+id/linearLayoutChannel2"
+        android:layout_width="85dp"
+        android:layout_height="160dp"
+        android:layout_weight="0"
+        android:layout_marginEnd="5dp"
+        android:orientation="vertical"
+        android:background="@color/transparent"
+       >
+
+        <ImageView
+            android:id="@+id/imageViewLogoList2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:src="@drawable/intro" />
+
+        <TextView
+            android:id="@+id/textViewChannelNameList2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Channel Name 2"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <!-- Third Channel -->
+    <LinearLayout
+        android:id="@+id/linearLayoutChannel3"
+        android:layout_width="85dp"
+        android:layout_height="160dp"
+        android:layout_weight="0"
+        android:layout_marginEnd="5dp"
+        android:orientation="vertical"
+        android:background="@color/transparent"
+        >
+
+        <ImageView
+            android:id="@+id/imageViewLogoList3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:src="@drawable/intro" />
+
+        <TextView
+            android:id="@+id/textViewChannelNameList3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Channel Name 3"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+
+    <!-- Fourth Channel -->
+    <LinearLayout
+        android:id="@+id/linearLayoutChannel4"
+        android:layout_width="85dp"
+        android:layout_height="160dp"
+        android:layout_weight="0"
+        android:orientation="vertical"
+        android:background="@color/transparent"
+        >
+
+        <ImageView
+            android:id="@+id/imageViewLogoList4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:src="@drawable/intro" />
+
+        <TextView
+            android:id="@+id/textViewChannelNameList4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Channel Name 4"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

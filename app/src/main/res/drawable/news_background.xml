@@ -1,0 +1,17 @@
+<!-- res/drawable/news_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="#80000000"/>
+            <corners android:radius="4dp"/>
+        </shape>
+    </item>
+    <item android:right="2dp">
+        <shape>
+            <gradient
+                android:angle="90"
+                android:endColor="#00000000"
+                android:startColor="#FF000000"/>
+        </shape>
+    </item>
+</layer-list>

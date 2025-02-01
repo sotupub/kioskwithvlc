@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Top Navigation Bar -->
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@android:color/white">
+
+
+        <!-- Logo Button on the Left -->
+
+        <!-- Welcome Text in the Center -->
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:src="@drawable/imglg"/>
+
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Welcome to Our Hotel"
+            android:textColor="#DAB539"
+            android:textSize="24sp"
+            android:fontFamily="@font/fj"
+            android:textStyle="bold"
+            android:padding="16dp"
+
+            />
+
+
+
+        <!-- Button to Open Channels Activity in the Right -->
+        <Button
+            android:id="@+id/btnOpenChannels"
+            android:layout_width="127dp"
+            android:layout_height="31dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="22dp"
+            android:background="@drawable/button_main_channels"
+            android:drawableLeft="@drawable/baseline_live_tv_24"
+            android:paddingLeft="5dp"
+            android:text="Channels"
+            android:textColor="@android:color/white" />
+
+
+    </RelativeLayout>
+
+    <!-- Video Player -->
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/playerView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/white"
+        app:resize_mode="fill"/>
+
+</RelativeLayout>

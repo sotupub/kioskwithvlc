@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="dark_gray">#333333</color>
+    <color name="transparent_gray">#88000000</color>
+    <color name="custom_purple">#9C27B0</color>
+    <color name="fifty_transparent">#80000000</color>
+    <color name="teal_700">#ffbf00</color>
+    <color name="stroke_color">#FFAABBCC</color>
+    <color name="text_primary">#DE000000</color>
+    <color name="colorPrimary">#FF6200EE</color>
+    <color name="colorPrimaryDark">#FF3700B3</color>
+    <color name="colorAccent">#FF018786</color>
+    <color name="transparent">#08666262</color>
+    <color name="purple">#800080</color>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ONE RESORT PREMIUM</string>
+    <string name="select_language" translatable="false">Select Language</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="sample_device_admin" translatable="false">test</string>
+    <string name="sample_device_admin_description" translatable="false">Test</string>
+
+    <string name="all_channels">All Channels</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="kids">Kids</string>
+    <string name="news">News</string>
+    <string name="movies">Movies</string>
+    <string name="sports">Sports</string>
+    <string name="audio" >Audio</string>
+    <string name="subtitles" >Subtitles</string>
+    <string name="channel">Channel:</string>
+    <string name="epg_no">Now: </string>
+    <string name="loading">Loading...</string>
+    <string name="hotel_news" translatable="false">Hotel News:</string>
+    <string name="select_subtitle">Select Subtitle</string>
+    <string name="no_subtitles_available" >No subtitles available</string>
+    <string name="select_audio_track">Select Audio Track</string>
+    <string name="no_audio_tracks_available">No tracks available</string>
+    <string name="enter_access_code">Enter Access Code</string>
+    <string name="invalid_access_code">Invalid access code</string>
+    <string name="change_server_url">Change Server URL</string>
+
+</resources>

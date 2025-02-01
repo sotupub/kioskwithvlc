@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:orientation="horizontal"
+    android:focusable="true"
+    android:background="@drawable/channel_item_selector_left"
+    android:padding="8dp"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/imageViewLogoLs"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/intro"
+        android:background="@drawable/circle_background"
+        android:padding="2dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewChannelNameLs"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:gravity="start"
+        android:text="Channel Name"
+        android:ellipsize="end"
+        android:maxLines="1" />
+</LinearLayout>

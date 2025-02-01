@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ONE RESORT PREMIUM</string>
+
+    <string name="enter_access_code">Entrez le code d\'accès</string>
+    <string name="invalid_access_code">Code d\'accès invalide</string>
+    <string name="change_server_url">Changer l\'URL du serveur</string>
+    <string name="all_channels">Toutes les chaînes</string>
+    <string name="entertainment">Divertissement</string>
+    <string name="kids">Enfants</string>
+    <string name="news">Actualités</string>
+    <string name="movies">Films</string>
+    <string name="sports">Sports</string>
+    <string name="channel">Chaîne: </string>
+    <string name="epg_no">Maintenant: </string>
+    <string name="loading">Chargement...</string>
+    <string name="select_subtitle">Sélectionner les sous-titres</string>
+    <string name="select_audio_track">Sélectionner la piste audio</string>
+    <string name="no_audio_tracks_available">Aucune information sur la piste disponible</string>
+    <string name="no_subtitles_available" >Aucun sous-titre disponible</string>
+    <string name="audio">Audio</string>
+    <string name="subtitles">Sous-titres</string>
+
+
+</resources>
